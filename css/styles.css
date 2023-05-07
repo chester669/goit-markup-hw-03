@@ -43,7 +43,7 @@ ol {
 
 .container {
     width: 1158px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 15px;
 }
 
@@ -127,6 +127,7 @@ ol {
     text-decoration: none;
     list-style: none;
     color: #434455;
+    padding: 24px 0;
 
 }
 
