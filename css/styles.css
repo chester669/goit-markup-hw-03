@@ -54,7 +54,9 @@ ol {
 
 /* header */
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-container {
@@ -106,7 +108,9 @@ ol {
     font-size: 16px;
 }
 
-.menu-item {}
+.menu-item {
+    padding: 24px 0;
+}
 
 .menu-name {
     color: #2E2F42;
