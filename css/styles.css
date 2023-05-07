@@ -21,7 +21,59 @@ body {
     background-color: #FFFFFF
 }
 
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* header */
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+   
+}
+
 
 /* logo */
 .logo {
@@ -61,6 +113,7 @@ body {
     text-decoration: none;
     list-style: none;
     color: #434455;
+
 }
 
 .data {
@@ -137,7 +190,7 @@ body {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42 ;
+    color: #2e2f42;
 }
 
 .team-title {
@@ -149,20 +202,23 @@ body {
     text-transform: capitalize;
     color: #2E2F42;
 }
+
 /*  section our team */
 
 .team {
     background-color: #FFFFFF;
 }
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .members {
-    background-color: #F4F4FD ;
-    
+    background-color: #F4F4FD;
+
 }
 
 /* footer */
@@ -214,12 +270,13 @@ body {
 
 /* pictures*/
 .card-title {
-    font-weight: 500 ;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .card-category {
     font-size: 16px;
     line-height: 1.5;
