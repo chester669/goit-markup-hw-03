@@ -217,6 +217,7 @@ ol {
     font-size: 16px;
 }
 
+/* about us section */
 .about-us {
     font-weight: 700;
     font-size: 36px;
@@ -224,8 +225,21 @@ ol {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
+.section-pictures {
+    padding-bottom: 120px
+}
+.pictures
+{display: flex;
+    gap: 24px;
+}
+.pictures-list {
+    width: calc((100% - 48px) / 3);
+}
+
+/*  section our team */
 .team-title {
     font-weight: 700;
     font-size: 1.1;
@@ -236,7 +250,7 @@ ol {
     color: #2E2F42;
 }
 
-/*  section our team */
+
 
 .team {
     background-color: #FFFFFF;
@@ -309,6 +323,7 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 
 .card-category {
     font-size: 16px;
