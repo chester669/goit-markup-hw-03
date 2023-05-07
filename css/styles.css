@@ -42,7 +42,6 @@ ol {
 }
 
 .container {
-    width: 1158px;
     padding: 0 15px;
 }
 
@@ -62,6 +61,8 @@ ol {
     padding-top: 24px;
     ;
     padding-bottom: 24px;
+    width: 1158px;
+    
 }
 
 .header_nav {
