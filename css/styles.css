@@ -41,10 +41,6 @@ ol {
     padding-left: 0;
 }
 
-.container {
-    padding: 0 15px;
-}
-
 .section {
     padding: 120px 0;
 }
@@ -58,12 +54,9 @@ ol {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    ;
-    padding-bottom: 24px;
     width: 1158px;
     margin: 0 auto;
-    
+    padding: 0 15px
 }
 
 .header_nav {
@@ -113,6 +106,7 @@ ol {
 
 .menu-name {
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .menu-name:hover,
