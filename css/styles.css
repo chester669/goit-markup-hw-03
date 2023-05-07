@@ -48,6 +48,9 @@ ol {
     padding-right: 15px;
 }
 
+.section {
+    padding: 120px 0;
+}
 /* header */
 .header {
     border-bottom: 1px solid #e7e9fc
@@ -190,12 +193,20 @@ ol {
 
 /*  section advantages */
 
+.menu-advantages {
+    display: flex;
+    gap: 24px;
+}
+.advantages-list {
+    width: calc((100% - 72px) / 4);
+}
 .names {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 
