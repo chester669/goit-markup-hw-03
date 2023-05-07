@@ -156,8 +156,8 @@ ol {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02;
-    max-width: 496px; 
-    
+    max-width: 496px;
+
 }
 
 /* button */
@@ -179,7 +179,9 @@ ol {
     height: 56px;
     border: none;
     border-radius: 4px;
-};
+}
+
+;
 
 .order-btn:hover,
 .order-btn:focus {
