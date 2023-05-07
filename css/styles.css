@@ -51,6 +51,7 @@ ol {
 .section {
     padding: 120px 0;
 }
+
 /* header */
 .header {
     border-bottom: 1px solid #e7e9fc
@@ -197,9 +198,11 @@ ol {
     display: flex;
     gap: 24px;
 }
+
 .advantages-list {
     width: calc((100% - 72px) / 4);
 }
+
 .names {
     font-weight: 500;
     font-size: 20px;
