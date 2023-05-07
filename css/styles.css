@@ -47,6 +47,7 @@ ol {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0;
 }
 
 /* header */
@@ -54,24 +55,26 @@ ol {
 .header-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header_nav {
     display: flex;
     align-items: center;
-    column-gap: 76px;
+    margin-right: 76px
 }
+
 
 .menu {
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    gap: 40px
 }
 
 .contacts {
     display: flex;
     align-items: center;
-   
+
 }
 
 
