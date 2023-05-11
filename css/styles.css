@@ -24,8 +24,7 @@ body {
 img {
     display: block;
 }
-
-h1,
+h1
 h2,
 h3,
 h4,
@@ -45,38 +44,31 @@ ol {
     padding: 120px 0;
 }
 
-/* header */
-.header {
-    border-bottom: 1px solid #e7e9fc;
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px
+}
 
+/* header */
+
+.header-container {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
     margin: 0 auto;
-    padding: 0 15px
+    justify-content: space-between;
+
 }
 
 .header_nav {
     display: flex;
     align-items: center;
 }
-
-
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 40px
-}
-
-.contacts {
-    display: flex;
-    align-items: center;
-    gap: 40px
-}
-
 
 /* logo */
 .logo {
@@ -95,6 +87,13 @@ ol {
 }
 
 /* navigation */
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
 .menu {
     font-weight: 500;
     font-size: 16px;
@@ -116,6 +115,12 @@ ol {
 }
 
 /* contacts */
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .contact-data {
     font-size: 16px;
@@ -141,53 +146,54 @@ ol {
 
 
 /* hero */
-.hero {
-    font-family: 'Roboto', sans-serif;
-    background-color: #2e2f42;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    padding: 188px 0;
 
+
+
+.hero {
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+
+    background-color: #2e2f42;
 }
 
 .hero_title {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02;
     max-width: 496px;
-
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 /* button */
 .order-btn {
-    font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 1);
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
     display: block;
-    min-width: 169px;
-    height: 56px;
+    padding: 32px 16px;
     border: none;
     border-radius: 4px;
+    min-width: 169px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-;
 
 .order-btn:hover,
 .order-btn:focus {
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 /*  section advantages */
@@ -235,12 +241,10 @@ ol {
     gap: 24px;
 }
 
-.pictures-list {
-    width: calc((100% - 48px) / 3);
-}
+
 
 /*  section our team */
-.team-title {
+.names {
     font-weight: 700;
     font-size: 1.1;
     line-height: 40px;
@@ -275,6 +279,11 @@ ol {
 
 .description {
     text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1, 5;
+    line-height: 24px;
 }
 
 .team-title {
@@ -362,23 +371,20 @@ ol {
     row-gap: 48px;
 }
 
-.technologies {
-    width: calc((100% - 48px) / 3);
-}
-
 .card-text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.card-title {
+.cards-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    padding: 0;
 }
 
 
