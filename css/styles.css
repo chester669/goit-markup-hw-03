@@ -24,13 +24,15 @@ body {
 img {
     display: block;
 }
-h1
+
+h1,
 h2,
 h3,
 h4,
 p {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
 }
 
 ul,
@@ -150,25 +152,25 @@ ol {
 
 
 .hero {
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
+    padding: 188px;
 
     background-color: #2e2f42;
 }
 
 .hero_title {
-    font-family: "Roboto", sans-serif;
+
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02;
-    max-width: 496px;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 48px;
 }
 
 
@@ -183,7 +185,7 @@ ol {
     color: #FFFFFF;
     cursor: pointer;
     display: block;
-    padding: 32px 16px;
+    padding: 16px 32px;
     border: none;
     border-radius: 4px;
     min-width: 169px;
@@ -207,18 +209,21 @@ ol {
     width: calc((100% - 72px) / 4);
 }
 
-.names {
+.name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+    text-align: start;
 }
 
 
 .advantages-description {
     font-size: 16px;
+    line-height: 1.5;
+    text-align: start;
 }
 
 /* about us section */
@@ -245,14 +250,15 @@ ol {
 
 /*  section our team */
 .names {
-    font-weight: 700;
-    font-size: 1.1;
-    line-height: 40px;
-    letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
-    text-transform: capitalize;
+    letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 72px;
+
 }
 
 .team-member {
@@ -282,8 +288,8 @@ ol {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1, 5;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .team-title {
@@ -291,6 +297,7 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .members {
@@ -317,10 +324,12 @@ ol {
 }
 
 .footer-description {
+    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+
 }
 
 .footer-logo-end {
@@ -384,7 +393,6 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    padding: 0;
 }
 
 
